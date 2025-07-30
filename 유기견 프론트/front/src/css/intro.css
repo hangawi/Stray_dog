@@ -1,0 +1,94 @@
+/* intro__inner */
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.section {
+    display: flex;
+    justify-content: center;  /* 가로 가운데 정렬 */
+    align-items: center;      /* 세로 가운데 정렬 */
+    padding: 120px 0;
+}
+/* intro__title */
+.intro__title {
+    width: 33%;
+}
+/* .container: 1280px로 너비 제한, 가운데 정렬 */
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 기본 section 스타일 */
+.section {
+    padding: 120px 0;
+}
+
+.section > h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section > p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+/* .section.center: 가운데 정렬을 위한 추가 스타일 */
+.section.center {
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+
+.intro__title span {
+    background-color: #FF3344;
+    font-size: 14px;
+    padding: 4px 30px 2px;
+    color: #fff;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.intro__title h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.intro__title p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* intro__desc */
+.intro__desc {
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro__desc > div {
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+.intro__desc h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+

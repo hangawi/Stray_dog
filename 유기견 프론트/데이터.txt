@@ -1,0 +1,42 @@
+-- 데이터베이스 선택
+USE test;
+
+-- 테이블 생성
+CREATE TABLE Animal (
+    animal_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    kg DECIMAL(5,2),
+    size ENUM('소형', '중형', '대형') DEFAULT '소형',
+    type VARCHAR(50),
+    view INT DEFAULT 0,
+    `like` INT DEFAULT 0,
+    create_date DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+INSERT INTO Animal (user_id, name, age, kg, size, type, view, `like`) VALUES
+(1, '초코', 3, 4.5, '소형', '개', 120, 15),
+(2, '냥이', 2, 3.2, '소형', '고양이', 98, 22),
+(3, '뭉치', 5, 20.0, '중형', '개', 250, 40);
+
+git add .
+git commit -m "변경 내용 작성"
+git push -u origin master
+
+
+import React from "react";
+
+const bb = () => {
+    return (
+        
+    );
+};
+
+export default bb;
+
+<div className="min-h-screen flex flex-col">
+            <Header />
+            <main className="flex-grow">
+            </main>
+            <Footer />
+        </div>
